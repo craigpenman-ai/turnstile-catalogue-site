@@ -171,7 +171,8 @@ main { max-width: 1200px; margin: 0 auto; padding: 28px 32px 48px; }
 .badge-link:hover { background: var(--gold); color: var(--on-accent); }
 .badge-available { color: var(--secondary); border-color: var(--secondary); background: var(--secondary-soft); }
 .badge-unavailable { color: var(--muted); }
-.card-bundle { display: block; text-decoration: none; color: inherit; }
+.card-bundle-link { display: block; text-decoration: none; color: inherit; }
+.card-body-buy { padding-top: 0; }
 .bundle-members { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
 .bundle-member-thumb {
   display: flex;
@@ -332,21 +333,6 @@ footer { text-align: center; padding: 28px; color: var(--muted); font-size: 11px
   padding-bottom: 8px;
   border-bottom: 2px solid var(--border);
 }
-.enquire-btn {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 7px 14px;
-  background: var(--accent);
-  color: var(--on-accent);
-  font-size: 11px;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  text-decoration: none;
-  border-radius: 6px;
-  transition: opacity 0.15s ease;
-}
-.enquire-btn:hover { opacity: 0.85; }
 .buy-now-btn {
   display: block;
   width: fit-content;
@@ -465,7 +451,8 @@ header h1, .section-heading, .detail-title, .card-body h3, nav a, .folder-label 
 .detail-info { position: sticky; top: 16px; }
 .detail-title { font-size: 26px; margin: 4px 0 2px; line-height: 1.2; }
 .detail-price { font-size: 22px; margin-top: 12px; }
-.enquire-lg { padding: 11px 20px; font-size: 13px; margin-top: 12px; }
+.buy-now-lg { padding: 12px 22px; font-size: 15px; margin-top: 12px; }
+.buy-now-lg + .buy-now-hint { font-size: 13px; }
 .payment-strip {
   margin-top: 12px;
   padding: 10px 14px;
