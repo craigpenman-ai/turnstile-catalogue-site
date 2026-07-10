@@ -444,6 +444,17 @@ header h1, .section-heading, .detail-title, .card-body h3, nav a, .folder-label 
 .detail-title { font-size: 26px; margin: 4px 0 2px; line-height: 1.2; }
 .detail-price { font-size: 22px; margin-top: 12px; }
 .enquire-lg { padding: 11px 20px; font-size: 13px; margin-top: 12px; }
+.payment-strip {
+  margin-top: 12px;
+  padding: 10px 14px;
+  background: var(--secondary-soft);
+  border: 1px solid var(--secondary);
+  border-radius: 8px;
+  font-size: 12px;
+  color: var(--text);
+}
+.payment-strip strong { color: var(--secondary); }
+.payment-strip a { color: var(--secondary); font-weight: 700; text-decoration: underline; }
 .facts { margin-top: 18px; border-top: 1px solid var(--border); }
 .fact {
   display: flex;
