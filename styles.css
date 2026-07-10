@@ -453,6 +453,7 @@ header h1, .section-heading, .detail-title, .card-body h3, nav a, .folder-label 
 .detail-price { font-size: 22px; margin-top: 12px; }
 .buy-now-lg { padding: 12px 22px; font-size: 15px; margin-top: 12px; }
 .buy-now-lg + .buy-now-hint { font-size: 13px; }
+.buy-now-multi { font-size: 12px; color: var(--muted); margin: 6px 0 0; line-height: 1.5; }
 .payment-strip {
   margin-top: 12px;
   padding: 10px 14px;
