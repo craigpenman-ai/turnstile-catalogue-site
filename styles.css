@@ -349,6 +349,16 @@ footer { text-align: center; padding: 28px; color: var(--muted); font-size: 11px
   transition: opacity 0.15s ease;
 }
 .buy-now-btn:hover { opacity: 0.85; }
+.price-breakdown {
+  font-size: 12px;
+  color: var(--muted);
+  margin: 7px 0 0;
+  line-height: 1.6;
+}
+.price-breakdown .amt { font-weight: 800; color: var(--accent); font-size: 15px; }
+.price-breakdown .sep { color: var(--border); margin: 0 6px; }
+.buy-now-lg + .price-breakdown { font-size: 13px; }
+.buy-now-lg + .price-breakdown .amt { font-size: 19px; }
 .buy-now-hint {
   font-size: 10px;
   color: var(--muted);
