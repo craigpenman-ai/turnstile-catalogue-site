@@ -171,6 +171,7 @@ main { max-width: 1200px; margin: 0 auto; padding: 28px 32px 48px; }
 .badge-link:hover { background: var(--gold); color: var(--on-accent); }
 .badge-available { color: var(--secondary); border-color: var(--secondary); background: var(--secondary-soft); }
 .badge-unavailable { color: var(--muted); }
+.card-bundle { position: relative; }
 .card-bundle-link { display: block; text-decoration: none; color: inherit; }
 .card-body-buy { padding-top: 0; }
 .bundle-members { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
